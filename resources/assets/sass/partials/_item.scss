@@ -1,0 +1,43 @@
+.item-left h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-left img {
+    max-width: 100%;
+}
+
+.item-left p {
+    margin-top: 20px;
+}
+
+.item-right {
+    margin-top: 100px;
+}
+
+
+.item-comment {
+    margin-bottom: 10px;
+}
+
+.item-comment__input {
+    margin: 10px 0 10px 0;
+}
+
+.comment-block {
+    margin-top: 20px;
+}
+
+.comment-block .media-list {
+    margin-top: 25px;
+}
+
+.comment-block .media-left img {
+    max-height: 50px;
+}
+
+.comment-block .media-body span.time {
+    font-size: 12px;
+    color: #777777;
+    margin-left: 10px;
+}

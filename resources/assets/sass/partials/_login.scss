@@ -1,0 +1,104 @@
+div.login-container {
+    padding-bottom: 80px;
+}
+
+div.login-container h3, h5 {
+    text-align: center;
+}
+div.login-container h3 {
+    margin-bottom: 7px;
+}
+div.login-container h5 {
+    margin-top: 0;
+}
+div.login-container .social-btn + h3 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+a.social-btn {
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 270px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    line-height: normal;
+    text-shadow: 0 -1px 0 #344d7a;
+    padding: 13px 12px 12px 12px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+a.social-btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+a.social-btn:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+}
+
+a.social-btn span {
+    padding-left: 45px;
+    line-height: inherit;
+}
+
+a.btn-vk {
+    margin-top: 20px;
+    background-image: url('/img/vk-social-network-logo.png');
+    background-position: 6px 6px;
+    background-repeat: no-repeat;
+    background-color: #587ea3;
+}
+a.btn-vk:hover {
+    background-color: #466482;
+}
+
+a.btn-fb {
+    margin-top: 20px;
+    background-image: url('/img/facebook-logo.png');
+    background-position: 6px 6px;
+    background-repeat: no-repeat;
+    background-color: #3b5998;
+}
+a.btn-fb:hover {
+    background-color: #2d4373;
+}
+
+
+div.login-field {
+    width: 270px;
+    float: none;
+    margin: 0 auto;
+}
+div.login-field input[type="email"], input[type="password"] {
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font: inherit;
+    line-height: 1.6;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccd0d2;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+div.login-field input:focus {
+    border-color: #98cbe8;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(152, 203, 232, 0.6);
+}
+
+
+div.reset-password-container h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
